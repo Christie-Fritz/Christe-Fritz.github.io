@@ -1,0 +1,116 @@
+.btn-light,
+.btn-light:hover,
+.btn-light:focus {
+  color: #06000c;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+
+
+/*
+ * Base structure
+ */
+
+body {
+  text-shadow: 0 .05rem .1rem rgb(3, 0, 10);
+  box-shadow:inherit 0 0 5rem rgb(7, 0, 12);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  color: rgb(255, 255, 255);
+  border-bottom: .25rem solid transparent;
+  font-size: large;
+  font-style: oblique;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color:rgb(128, 45, 24);
+  border-bottom-style:dotted
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color:calc(255, 255, 255);
+  border-bottom-color:rgb(128, 45, 24);
+  border-bottom-style: dotted;
+  font-style: oblique;
+  font-size: large;
+}
+
+span{
+    color:rgb(128, 45, 24)
+}
+
+.about {
+   width: 100%;
+   padding: 100px 0px;
+   
+  
+}
+.about img {
+    height: auto;
+    width: 430px;
+    
+}
+
+.about-text {
+    width: 600;
+    
+}
+.main {
+    width:1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.about-text h2 {
+    color:rgb(194, 194, 194);
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.about-text p {
+    color: rgb(161, 156, 156);
+    letter-spacing: .5px;
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-text h3{
+    color:rgb(245, 245, 244);
+    font-size: x-large;
+    text-transform:inherit;
+    margin-bottom: 10px;
+
+}
+.about-text  {
+    color: rgb(12, 12, 12);
+    letter-spacing: .5px;
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.px-3{
+    color:rgb(194, 194, 194);
+    font-size: 20px;
+    font-style:unset;
+}
+.px-3 h1{
+    font-size: 60px;
+    font-style: oblique;
+}
